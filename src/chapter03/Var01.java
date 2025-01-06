@@ -1,3 +1,5 @@
+package chapter03;
+
 public class Var01{
 	public static void main(String[] args){
 		int a ;

@@ -1,3 +1,5 @@
+package chapter06;
+
 public class YanghuiTriangle {
 	public static void main(String[] args){
 		int [][] arr = new int [10][];

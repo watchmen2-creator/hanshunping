@@ -1,3 +1,5 @@
+package chapter05;
+
 public class ForExercise {
 	public static void main(String[] args){
 		int count = 0 ;

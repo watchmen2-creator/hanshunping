@@ -1,3 +1,5 @@
+package chapter06;
+
 public class ArrayCopy {
 	public static void main(String[] args){
 		int[] arr1 = {10 , 20,  30};

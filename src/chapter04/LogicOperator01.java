@@ -1,4 +1,6 @@
- public class LogicOperator01 {
+package chapter04;
+
+public class LogicOperator01 {
  	public static void main(String[] args){
  		int age = 30 ;
  		if (age > 20 && age < 50){

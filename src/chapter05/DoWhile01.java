@@ -1,3 +1,5 @@
+package chapter05;
+
 import java.util.Scanner ;
 import java.util.Random ;
 

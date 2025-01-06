@@ -1,3 +1,5 @@
+package chapter05;
+
 import java.util.Random ;
 
 public class Break01 {

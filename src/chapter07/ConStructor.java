@@ -1,8 +1,10 @@
+package chapter07;
+
 public class ConStructor {
 	public static void main(String[] args){
-		Person p1 = new Person("jack" , 15 );
-		Person p2 = new Person("lucy" );		
-		Person p3 = new Person();		
+		Person_ p1 = new Person_("jack" , 15 );
+		Person_ p2 = new Person_("lucy" );
+		Person_ p3 = new Person_();
 		System.out.println(p1.name);
 		System.out.println(p1.age);
 		System.out.println(p1.hashCode());
@@ -19,19 +21,19 @@ public class ConStructor {
 }
 
 
-class Person {
+class Person_ {
 	String name ;
 	int age ;
-	Person(){
+	Person_(){
 		age = 18 ;
 		System.out.println("hashCode = " + this.hashCode());
 	}
-	Person(String name , int age){
+	Person_(String name , int age){
 		this.name = name ;
 		this.age = age ;
 		System.out.println("hashCode = " + this.hashCode());
 	}
-	Person(String objName ){
+	Person_(String objName ){
 		name = objName ;
 		age = 18 ;
 		System.out.println("hashCode = " + this.hashCode());

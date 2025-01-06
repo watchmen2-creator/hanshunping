@@ -1,3 +1,5 @@
+package chapter07;
+
 public class RecursionExercise01 {
 	public static void main(String[] args){
 		Function fun = new Function();

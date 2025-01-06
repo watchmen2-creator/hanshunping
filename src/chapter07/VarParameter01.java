@@ -1,3 +1,5 @@
+package chapter07;
+
 public class VarParameter01 {
 	public static void main(String[] args){
 		Methods m = new Methods() ;

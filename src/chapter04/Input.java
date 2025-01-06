@@ -1,4 +1,6 @@
-import java.util.Scanner ; 
+package chapter04;
+
+import java.util.Scanner ;
 
 public class Input {
 	public static void main(String[] args){

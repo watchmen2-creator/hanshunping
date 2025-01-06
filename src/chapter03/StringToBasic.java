@@ -1,3 +1,5 @@
+package chapter03;
+
 public class StringToBasic {
 	public static void main(String[] args){
 		int n1  = 100 ;

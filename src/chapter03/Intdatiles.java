@@ -1,3 +1,5 @@
+package chapter03;
+
 public class Intdatiles {
 
 	public static void main(String[] args){

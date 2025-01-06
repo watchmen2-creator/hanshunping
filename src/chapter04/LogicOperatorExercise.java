@@ -1,3 +1,5 @@
+package chapter04;
+
 public class  LogicOperatorExercise {
 	public static void main (String[] args){
 		// int x = 5 ;

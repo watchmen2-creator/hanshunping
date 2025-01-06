@@ -1,4 +1,6 @@
-import java.util.Scanner ; 
+package chapter05;
+
+import java.util.Scanner ;
 
 public class While01 {
 	public static void main(String[] args){
