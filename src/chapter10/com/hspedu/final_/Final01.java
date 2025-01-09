@@ -13,7 +13,7 @@ public class Final01 {
          * */
         E e = new E();
 //        e.num = 20; // 编译错误，不能修改final修饰的属性
-        final int num = 10; // 局部变量
+        final int FIANL_NUM = 10; // 局部变量
 //        num = 20; // 编译错误，不能修改final修饰的局部变量
     }
 }
