@@ -24,7 +24,7 @@ class Outer5 {
 
             @Override
             public void display() {
-                System.out.println(n1 + "  &  Inner class display method  &  " + Outer5.this.n1);
+                System.out.println(n1 + "  &  Inner09 class display method  &  " + Outer5.this.n1);
             }
         };
         person.display();
