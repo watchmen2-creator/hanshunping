@@ -3,14 +3,14 @@ package chapter11.com.hspedu.enum_;
 public class Enumeration01 {
     public static void main(String[] args) {
         //创建Season对象
-//        Season spring = new Season("春天", "温暖");
-//        Season summer = new Season("夏天", "炎热");
-//        Season autumn = new Season("秋天", "凉爽");
-//        Season winter = new Season("冬天", "寒冷");
+//        Season2 spring = new Season2("春天", "温暖");
+//        Season2 summer = new Season2("夏天", "炎热");
+//        Season2 autumn = new Season2("秋天", "凉爽");
+//        Season2 winter = new Season2("冬天", "寒冷");
 
         //对于季节而言，对象就是固定的四个，不会有其他季节
         //现有的设计思路不能提现季节是固定的四个对象，这种设计不好，因此引出了枚举类
-//        Season other = new Season("某天", "~~~");
+//        Season2 other = new Season2("某天", "~~~");
 
         /*
          * 枚举类：enumeration
@@ -25,18 +25,18 @@ public class Enumeration01 {
 //季节类
 //季节的值是有限的：spring、summer、autumn、winter
 //只读，不需要修改
-//class Season {
+//class Season2 {
 //    private String Name;//季节名称
 //    private String Description;//描述
 //
 //    //无参构造器
-//    public Season() {
+//    public Season2() {
 //        this.setName("春天");
 //        this.setDescription("春季，阳光明媚，万物复苏。");
 //    }
 //
 //    //构造器
-//    public Season(String name, String description) {
+//    public Season2(String name, String description) {
 //        this.setName(name);
 //        this.setDescription(description);
 //    }
