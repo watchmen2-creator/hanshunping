@@ -10,8 +10,15 @@ public class Homework04 {
         Cellphone cellphone = new Cellphone();
         cellphone.testWork(new ICalculator() {
             @Override    //实现ICalculator接口的work()方法
-            public double work(double a, double b) {
-                return a - b;
+            public double work(double n1, double n2) {
+                return n1 - n2;
+            }
+        }, 10, 20);
+
+        cellphone.testWork(new ICalculator() {
+            @Override    //实现ICalculator接口的work()方法
+            public double work(double n1, double n2) {
+                return n1 * n2;
             }
         }, 10, 20);
     }
@@ -23,16 +30,16 @@ interface ICalculator {
 }
 
 class Cellphone {
-    public void testWork(ICalculator calculator, double a, double b) {
-        double result = calculator.work(a, b);
+    public void testWork(ICalculator calculator, double n1, double n2) {
+        double result = calculator.work(n1, n2);
         System.out.println("Result is: " + result);
     }
 
     public void fun() {
         ICalculator calculator = new ICalculator() {     //匿名内部类实现ICalculator接口
             @Override
-            public double work(double a, double b) {
-                return a + b;
+            public double work(double n1, double n2) {
+                return n1 + n2;
             }
         };
     }
