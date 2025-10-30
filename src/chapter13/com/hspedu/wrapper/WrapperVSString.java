@@ -2,6 +2,7 @@ package chapter13.com.hspedu.wrapper;
 
 public class WrapperVSString {
     public static void main(String[] args) {
+        //包装类转成 String
         //以 Integer 转成 String 为例
         Integer i = 100;
 

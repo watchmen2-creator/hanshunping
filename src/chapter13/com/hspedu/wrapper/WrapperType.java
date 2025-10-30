@@ -5,8 +5,8 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
 public class WrapperType {
     public static void main(String[] args) {
 
-//        Boolean
-//    Character
+//     boolean ->   Boolean
+//     char -> Character
 //    Byte
     }
 }
