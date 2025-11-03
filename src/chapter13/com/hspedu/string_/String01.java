@@ -19,5 +19,15 @@ public class String01 {
         // 8. 一定要注意：value 是一个final类型，不可以修改(地址不能修改)：即value不能指向新的地址，但是单个字符内容是可以变化
 
         String name = "John";
+
+
+        final char[] value = {'h', 'e', 'l', 'l', 'o'};
+        value[0] = '1';
+
+        char[] v2 = {'h', 'e', 'l', 'l', 'o'};
+//        value = v2; // 编译错误，value 是一个final类型，不可以修改
+
+
+
     }
 }
