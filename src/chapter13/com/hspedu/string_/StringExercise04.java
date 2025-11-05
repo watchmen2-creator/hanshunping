@@ -9,7 +9,7 @@ public class StringExercise04 {
         System.out.println(s2 == s3); // s2和s3指向不同对象，==比较的是地址，结果为：false
         System.out.println(s2 == s4);  //s2和s4指向都是常量池中的同一个对象，==比较的是地址，结果为：true
         System.out.println(s2.equals(s3));//比较的是值，结果为：true
-        System.out.println(s1 == s2);  //s1和se指向常量池中的不同对象，==比较的是地址，结果为：false
+        System.out.println(s1 == s2);  //s1和s2指向常量池中的不同对象，==比较的是地址，结果为：false
 
     }
 }
